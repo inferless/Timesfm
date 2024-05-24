@@ -1,6 +1,6 @@
 INPUT_SCHEMA = {
     "forecast_input": {
-        'datatype': 'FLOAT',
+        'datatype': 'FP32',
         'required': True,
         'shape': [100],  # Length of your forecast_input array
         'example': [
@@ -27,7 +27,7 @@ INPUT_SCHEMA = {
         ]
     },
     "frequency_input": {
-        'datatype': 'INT',
+        'datatype': 'INT8',
         'required': True,
         'shape': [1],
         'example': [0]
