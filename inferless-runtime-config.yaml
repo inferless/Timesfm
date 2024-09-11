@@ -1,7 +1,4 @@
 build:
-  run:
-    - "git clone https://github.com/google-research/timesfm.git"
-    - "cd timesfm"
-    - "pip install -e ."
-    - "pip install huggingface_hub[cli]==0.23.0 utilsforecast==0.1.10 praxis==1.4.0 paxml==1.4.0 einshape==1.0"
-    - "pip install jax[cuda] -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html jax==0.4.28"
+  cuda_version: "12.1.1"
+  python_packages:
+    - "timesfm==1.1.0"
