@@ -5,4 +5,3 @@ build:
     - "pip install -e ."
     - "pip install huggingface_hub[cli]==0.23.0 utilsforecast==0.1.10 praxis==1.4.0 paxml==1.4.0 einshape==1.0"
     - "pip install jax[cuda] -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html jax==0.4.28"
-    - "huggingface-cli login --token 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 --add-to-git-credential"
